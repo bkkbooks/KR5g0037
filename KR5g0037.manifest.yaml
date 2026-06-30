@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0037/v1
+canonical_location: https://kanripo.org/bkk/KR5g0037/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 正一論
+  identifiers:
+    alt_id:
+    - DZ1228
+  date: '2015-08-29 02:49:19.177963'
+  source:
+    repository: kanripo
+    path: KR5g0037
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0037_000.yaml, hash: 'sha256:35f05b96831214aa622a9bc81385929654710e8b839d47fa60b1a3a94d522330'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0037_000.markers.yaml, hash: 'sha256:de2ddbb6b6a150362066532e37f2ecfb0016d23790d7613a7b4d9da0aeb5966b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0037_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1878
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:458d1a1a71a5f7f0a2bf8e9cf28a5183c34242af850013e038bf16ed37b62c94
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
